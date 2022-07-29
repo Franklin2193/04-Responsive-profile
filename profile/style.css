@@ -5,7 +5,7 @@
 h1 {
     text-align: center;
     background-color: black;
-    color: yellow;
+    color: red;
     box-shadow: 0 0 10px rgba(194, 36, 36, 0.9);
     border-radius: 5px;
     padding: 5px;
@@ -43,18 +43,18 @@ img {
   font-weight: 100px;
 }
 
-.contenido {
+.datos {
   display: flex;
   margin: 30px;
 }
 
-.articulos {
+.separador {
   width: 90%;
   border-right: 4px solid red;
 }
 
-.secciones {
-  display: flex;
+.redes {
+  display: inline-flex;
   align-items: center;
   padding: 3px;
 }
@@ -65,15 +65,4 @@ img {
   padding: 40px;
   width: 500px;
   text-align: center;
-}
-.menu_secundario a {
-  font-family: 'Courier New', Courier, monospace;
-  font-weight: bold;
-  display: red;
-  color: black;
-  padding: 0px;
-  text-align: center;
-}
-.redes {
-  display: inline-flex
 }
